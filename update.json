@@ -5,11 +5,11 @@
   "windows": {
     "version": "1.0.2",
     "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.0.2/AuroraShare-v1.0.2.exe",
-    "size": 10338304,
-    "sha256": "F54684D4FC3881386AC9FB78B788B1F035FB1C00625477B5FCCCB109F76567BB",
+    "size": 10338816,
+    "sha256": "9ABC77245F4C1590659D5C5E10C43BAC92441A3AACE87C512F66C56D0E8294C4",
     "notes": [
       "资源占用优化：空闲时事件驱动、不再定时重绘，空闲 CPU 接近 0",
-      "限制后台工作线程数，降低线程与内存开销",
+      "限制后台工作线程数，启停过渡期短暂轮询，降低线程与内存开销",
       "网页 HTTP + WebDAV + SFTP 三种共享方式，访问端浏览器零安装",
       "内置自动更新、文件搜索、多选 ZIP 打包下载与扫码访问"
     ]
