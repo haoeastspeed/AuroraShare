@@ -1,0 +1,17 @@
+{
+  "schema": "aurora-update-1",
+  "app": "AuroraShare",
+  "generated": "2026-10-06",
+  "windows": {
+    "version": "1.0.1",
+    "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.0.1/%E6%9E%81%E5%85%89Share.exe",
+    "size": 10334720,
+    "sha256": "7D7443FC248240E82544F27AC10E2BD95007D880C641169B92257701466F2125",
+    "notes": [
+      "初版发布：单文件、免安装，服务端一键启动共享",
+      "网页 HTTP + WebDAV + SFTP 三种共享方式，访问端浏览器零安装",
+      "内置自动更新：启动自动检查，下载校验 SHA-256 后自替换重启",
+      "支持文件搜索、多选 ZIP 打包下载与扫码访问"
+    ]
+  }
+}
