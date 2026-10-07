@@ -1,17 +1,17 @@
 {
   "schema": "aurora-update-1",
   "app": "AuroraShare",
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "windows": {
-    "version": "1.0.2",
-    "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.0.2/AuroraShare-v1.0.2.exe",
-    "size": 10338816,
-    "sha256": "9ABC77245F4C1590659D5C5E10C43BAC92441A3AACE87C512F66C56D0E8294C4",
+    "version": "1.0.3",
+    "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.0.3/AuroraShare-v1.0.3.exe",
+    "size": 10356736,
+    "sha256": "6D43A063433EA0386067E7290E8CBFE0C920B25F9B451C45A8B95A5FDF3E065A",
     "notes": [
-      "资源占用优化：空闲时事件驱动、不再定时重绘，空闲 CPU 接近 0",
-      "限制后台工作线程数，启停过渡期短暂轮询，降低线程与内存开销",
-      "网页 HTTP + WebDAV + SFTP 三种共享方式，访问端浏览器零安装",
-      "内置自动更新、文件搜索、多选 ZIP 打包下载与扫码访问"
+      "修复网页上传大文件失败：解除默认 2MB 请求体限制，支持任意大小",
+      "修复 SFTP 上传“写临时文件再改名转正”被拒绝的问题",
+      "共享设置在关闭软件时自动保存，无需每次重新选择",
+      "网页 / WebDAV / SFTP 上传均为流式落盘，不占内存"
     ]
   }
 }
