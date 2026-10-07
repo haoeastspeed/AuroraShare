@@ -3,15 +3,15 @@
   "app": "AuroraShare",
   "generated": "2026-10-07",
   "windows": {
-    "version": "1.0.4",
-    "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.0.4/AuroraShare-v1.0.4.exe",
+    "version": "1.0.5",
+    "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.0.5/AuroraShare-v1.0.5.exe",
     "size": 10356736,
-    "sha256": "876D214FB210B671AE879B4356E7BCCB91854D808A83D6FA806E503878495A49",
+    "sha256": "D1E402207E648DBEF7A9A1D8B097548F7A6746FAAE2B751D8E200CB253A04D2D",
     "notes": [
-      "修复网页端新建文件夹、重命名、删除全部失败的问题（请求编码不匹配，返回 415）",
-      "修复设置口令后网页登录失败的问题",
-      "删除非空文件夹可递归删除，文件与文件夹操作均正常",
-      "共享设置在关闭软件时自动保存，无需每次重新选择"
+      "启动软件后服务默认处于停止状态，需要哪种协议就在对应选项卡手动启动",
+      "网页端新建、重命名、删除及口令登录已修复，操作正常",
+      "仍可在共享设置勾选「打开软件自动启动服务」恢复开机即启动",
+      "共享设置在关闭软件时自动保存"
     ]
   }
 }
