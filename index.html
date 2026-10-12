@@ -234,31 +234,41 @@ footer{padding:56px 0 40px;border-top:1px solid var(--border);background:#080C16
     <h2 class="title">为"即发即用"而生</h2>
     <p class="lead">不做臃肿的网盘客户端，只把局域网里"把文件给另一台设备"这件事做到最简单。</p>
     <div style="margin-top:24px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center">
-      <span style="font-size:12.5px;font-weight:800;letter-spacing:.06em;color:#062b27;background:linear-gradient(135deg,#2dd4bf,#15b8a6);padding:6px 14px;border-radius:999px">v1.1.0 新功能</span>
-      <span style="font-size:12.5px;font-weight:600;color:var(--teal);border:1px solid var(--teal-dim);padding:6px 14px;border-radius:999px">大文件断点续传</span>
-      <span style="font-size:12.5px;font-weight:600;color:var(--teal);border:1px solid var(--teal-dim);padding:6px 14px;border-radius:999px">收件箱 / 投递箱</span>
-      <span style="font-size:12.5px;font-weight:600;color:var(--teal);border:1px solid var(--teal-dim);padding:6px 14px;border-radius:999px">临时分享链接</span>
-      <span style="font-size:12.5px;font-weight:600;color:var(--teal);border:1px solid var(--teal-dim);padding:6px 14px;border-radius:999px">局域网自动发现 aurora.local</span>
+      <span style="font-size:12.5px;font-weight:800;letter-spacing:.06em;color:#062b27;background:linear-gradient(135deg,#2dd4bf,#15b8a6);padding:6px 14px;border-radius:999px">v1.2.0 新功能</span>
+      <span style="font-size:12.5px;font-weight:600;color:var(--teal);border:1px solid var(--teal-dim);padding:6px 14px;border-radius:999px">SFTP 网页网关</span>
+      <span style="font-size:12.5px;font-weight:600;color:var(--teal);border:1px solid var(--teal-dim);padding:6px 14px;border-radius:999px">浏览器即 SFTP 客户端</span>
+      <span style="font-size:12.5px;font-weight:600;color:var(--teal);border:1px solid var(--teal-dim);padding:6px 14px;border-radius:999px">口令三模式 · DPAPI 加密保存</span>
+      <span style="font-size:12.5px;font-weight:600;color:var(--teal);border:1px solid var(--teal-dim);padding:6px 14px;border-radius:999px">大文件断点续传 · 收件箱</span>
     </div>
     <div class="feat-grid">
       <div class="feat" style="border-color:var(--teal-dim)">
+        <div class="fi" style="background:linear-gradient(135deg,rgba(45,212,191,.24),rgba(45,212,191,.10))"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></div>
+        <h4>SFTP 网页网关<span style="display:inline-block;font-size:10px;font-weight:800;letter-spacing:.05em;color:#062b27;background:#2dd4bf;padding:1px 7px;border-radius:999px;margin-left:8px;vertical-align:middle">NEW</span></h4>
+        <p>在软件里填一次远程主机地址、账号密码，浏览器立刻变成图形化 SFTP 客户端：远程文件浏览、上传下载、搜索、重命名、删除全在网页完成，手机平板同样可用，文件流式中转不落盘、访问端无需安装任何 SFTP 工具。</p>
+      </div>
+      <div class="feat">
+        <div class="fi" style="background:linear-gradient(135deg,rgba(45,212,191,.24),rgba(45,212,191,.10))"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+        <h4>口令三模式 · 加密保存</h4>
+        <p>每条远程连接的访问口令可选随机、临时固定或永久固定；永久模式把主机信息与凭据经 Windows DPAPI 加密保存在本机，下次一键重连，随机/临时模式关闭即失效、不留痕迹。</p>
+      </div>
+      <div class="feat">
         <div class="fi" style="background:linear-gradient(135deg,rgba(45,212,191,.24),rgba(45,212,191,.10))"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/><line x1="12" y1="11" x2="12" y2="16"/><polyline points="9.5 13.5 12 11 14.5 13.5"/></svg></div>
-        <h4>大文件断点续传<span style="display:inline-block;font-size:10px;font-weight:800;letter-spacing:.05em;color:#062b27;background:#2dd4bf;padding:1px 7px;border-radius:999px;margin-left:8px;vertical-align:middle">NEW</span></h4>
+        <h4>大文件断点续传</h4>
         <p>大文件自动分片上传、多任务队列并发，网络中断后再次打开即可从断点续传，不必从头再来。</p>
       </div>
-      <div class="feat" style="border-color:var(--teal-dim)">
-        <div class="fi" style="background:linear-gradient(135deg,rgba(45,212,191,.24),rgba(45,212,191,.10))"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></div>
-        <h4>收件箱 / 投递箱<span style="display:inline-block;font-size:10px;font-weight:800;letter-spacing:.05em;color:#062b27;background:#2dd4bf;padding:1px 7px;border-radius:999px;margin-left:8px;vertical-align:middle">NEW</span></h4>
+      <div class="feat">
+        <div class="fi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></div>
+        <h4>收件箱 / 投递箱</h4>
         <p>生成仅可上传的二维码或链接发给他人，对方能把文件投递给你，却无法浏览或下载你的共享内容。</p>
       </div>
-      <div class="feat" style="border-color:var(--teal-dim)">
-        <div class="fi" style="background:linear-gradient(135deg,rgba(45,212,191,.24),rgba(45,212,191,.10))"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.5 1.5"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.5-1.5"/></svg></div>
-        <h4>临时分享链接<span style="display:inline-block;font-size:10px;font-weight:800;letter-spacing:.05em;color:#062b27;background:#2dd4bf;padding:1px 7px;border-radius:999px;margin-left:8px;vertical-align:middle">NEW</span></h4>
+      <div class="feat">
+        <div class="fi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.5 1.5"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.5-1.5"/></svg></div>
+        <h4>临时分享链接</h4>
         <p>为某个文件或文件夹生成专属链接，可单独设置访问口令、有效期与下载次数，到期或达限自动失效。</p>
       </div>
-      <div class="feat" style="border-color:var(--teal-dim)">
-        <div class="fi" style="background:linear-gradient(135deg,rgba(45,212,191,.24),rgba(45,212,191,.10))"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49M7.76 16.24a6 6 0 0 1 0-8.49"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 19.07a10 10 0 0 1 0-14.14"/></svg></div>
-        <h4>局域网自动发现<span style="display:inline-block;font-size:10px;font-weight:800;letter-spacing:.05em;color:#062b27;background:#2dd4bf;padding:1px 7px;border-radius:999px;margin-left:8px;vertical-align:middle">NEW</span></h4>
+      <div class="feat">
+        <div class="fi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49M7.76 16.24a6 6 0 0 1 0-8.49"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 19.07a10 10 0 0 1 0-14.14"/></svg></div>
+        <h4>局域网自动发现</h4>
         <p>基于 mDNS 在局域网内自动广播，同一网络下直接打开 <code>http://aurora.local</code> 即可访问，无需记忆 IP。</p>
       </div>
       <div class="feat">
@@ -338,11 +348,11 @@ footer{padding:56px 0 40px;border-top:1px solid var(--border);background:#080C16
         </div>
         <h3>极光Share for Windows</h3>
       </div>
-      <div class="dl-ver">最新版本 <b>v1.1.0</b> · Windows 10 / 11（64 位）· 单文件免安装</div>
+      <div class="dl-ver">最新版本 <b>v1.2.0</b> · Windows 10 / 11（64 位）· 单文件免安装</div>
       <div class="dl-actions">
         <a class="dl-btn" href="https://github.com/haoeastspeed/AuroraShare/releases/latest">
-          下载极光Share v1.1.0
-          <span class="meta">约 10 MB</span>
+          下载极光Share v1.2.0
+          <span class="meta">约 12 MB</span>
         </a>
         <a class="dl-btn alt" href="https://github.com/haoeastspeed/AuroraShare/releases">
           查看所有版本
