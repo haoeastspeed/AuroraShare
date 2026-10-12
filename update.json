@@ -3,16 +3,15 @@
   "app": "AuroraShare",
   "generated": "2026-10-12",
   "windows": {
-    "version": "1.1.0",
-    "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.1.0/AuroraShare-v1.1.0.exe",
-    "size": 11443200,
-    "sha256": "E19EE8E6383C58475243F1CB4D61A5A3F2C1AD53CF972B75714E811537D3D230",
+    "version": "1.2.0",
+    "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.2.0/AuroraShare-v1.2.0.exe",
+    "size": 12823552,
+    "sha256": "F1B119A3BBF3060F31D49B43C334325F32307C497233D36D9020E56BAAE47A50",
     "notes": [
-      "新增 大文件分片上传与断点续传：网络中断自动续传，支持多任务上传队列（移动端 2MB / 桌面 4MB 分片）",
-      "新增 收件箱 / 投递箱：生成仅可上传的二维码或链接，他人可向你投递文件、无法浏览共享内容",
-      "新增 临时分享链接：支持访问口令、有效期、下载次数限制",
-      "新增 局域网自动发现（mDNS）：同一网络下可直接访问 http://aurora.local ，无需记忆 IP",
-      "修复 分享子路径页面图标不显示等问题，优化上传与预览体验"
+      "新增 SFTP 网页网关：软件内连接远程 SFTP 主机，浏览器即图形化 SFTP 客户端，手机/平板同网页可用，文件全程流式中转不落盘",
+      "远程目录支持浏览/搜索/预览、分片上传断点续传、Range 拖动下载、新建目录、重命名、递归删除",
+      "主机端口令三模式：随机 / 临时固定 / 永久固定；永久模式主机信息与凭据经 Windows DPAPI 加密保存，一键重连",
+      "独立网关口令 Cookie 与路径逃逸防护，支持多台远程主机同时连接"
     ]
   }
 }
