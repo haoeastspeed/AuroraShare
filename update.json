@@ -3,15 +3,16 @@
   "app": "AuroraShare",
   "generated": "2026-10-12",
   "windows": {
-    "version": "1.0.6",
-    "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.0.6/AuroraShare-v1.0.6.exe",
-    "size": 10358272,
-    "sha256": "88F6C52DF0FFC4F4F2D1077786DFE15E9065B9C10F8EAC22DCFFC2C2398A61A7",
+    "version": "1.1.0",
+    "url": "https://github.com/haoeastspeed/AuroraShare/releases/download/v1.1.0/AuroraShare-v1.1.0.exe",
+    "size": 11443200,
+    "sha256": "E19EE8E6383C58475243F1CB4D61A5A3F2C1AD53CF972B75714E811537D3D230",
     "notes": [
-      "修复 SFTP 有口令时认证协商返回空方法列表，部分手机客户端首次连接被拒后不知道改用密码的问题",
-      "无口令共享时，SFTP 客户端密码框若不允许留空，任意填一个字符即可连接（地址卡已加提示）",
-      "启动软件后服务默认停止，在对应选项卡手动启动",
-      "网页端新建、重命名、删除及口令登录正常，共享设置关闭时自动保存"
+      "新增 大文件分片上传与断点续传：网络中断自动续传，支持多任务上传队列（移动端 2MB / 桌面 4MB 分片）",
+      "新增 收件箱 / 投递箱：生成仅可上传的二维码或链接，他人可向你投递文件、无法浏览共享内容",
+      "新增 临时分享链接：支持访问口令、有效期、下载次数限制",
+      "新增 局域网自动发现（mDNS）：同一网络下可直接访问 http://aurora.local ，无需记忆 IP",
+      "修复 分享子路径页面图标不显示等问题，优化上传与预览体验"
     ]
   }
 }
